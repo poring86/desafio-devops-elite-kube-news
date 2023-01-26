@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: poring86/kubenews
+          image: poring86/kubenews:{{TAG}}
           ports:
             - containerPort: 8080
           env:
